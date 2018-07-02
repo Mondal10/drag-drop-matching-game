@@ -1,2 +1,2 @@
 # drag-drop-matching-game
-Drag drop using javascipt 
+Drag drop using javascipt and HTML
