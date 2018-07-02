@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Game</title>
+	<style type="text/css">
+		.div{
+			height:200px;
+			width:200px;
+			border:3px solid black;
+			float: left;
+			margin-left: 10px;
+
+		}	
+		img{
+			height: 150px;
+			width: 150px;
+		}
+	/*	.main{
+			height: 400px;
+			width:400px;
+
+		}*/
+		.image{
+			margin-left: 10px;
+			padding: 15px;
+			width:700px;
+			clear:both;
+		}
+	</style>  
+</head>
+<body>
+	<div class="main" align="center">
+		<div id="cricket" class="div" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<p id="Cric">Cricket</p>
+		</div>
+		<div id="football" class="div" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<p id="Foot">Football</p>
+		</div>
+
+		<br><br><br><br><br><br><br><br><br><br><br><br>
+
+		<div id="basketball" class="div" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<p id="Basket">Basketball</p>
+		</div>
+		<div id="tennis" class="div" ondrop="drop(event)" ondragover="allowDrop(event)">
+			<p id="Tenn">Tennis</p>
+		</div>
+	</div><br><br>
+	<div class="image">
+		<img id="d1" name="football"  src="football.jpg" draggable="true" ondragstart="drag(event)"></img>
+		<img id="d2" name="basketball"  src="basketball.jpg" draggable="true" ondragstart="drag(event)"></img>
+		<img id="d3" name="tennis" src="tennis.jpg" draggable="true" ondragstart="drag(event)"></img>
+		<img id="d4" name="cricket" src="cricket.jpg" draggable="true" ondragstart="drag(event)"></img>
+	</div>
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
