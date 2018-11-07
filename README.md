@@ -6,4 +6,4 @@ Tried to make Drag and Drop more Interesting so made this game.
 **_Instruction_**
 - Very simple, just drag the objects to its respective grid where the name of the object is written
 
-[Try is here]()
+[Try is here](https://mondal10.github.io/drag-drop-matching-game/.)
